@@ -1,0 +1,4 @@
+title: COMS11700
+remote_theme: pmarsceill/just-the-docs
+compress_html:
+  blanklines: true
