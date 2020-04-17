@@ -26,7 +26,7 @@ A __configuration__ is a triple comprising two strings $$u$$, $$v$$ and a state 
 * A __rejecting configuration__ is any configuration whose state is $$q_{reject}$$.
 * Accepting and rejecting configurations are also called __halting configurations__ because the computation of the machine immediately halts (terminates) if it reaches an accepting or rejecting configuration.
 
-We say that configuration $$C_1$$ __yields__ configuration $$C_2$$ just if the machine can move from $$C_1$$ to $$C_2$$ in a single step.  This notion is defined as follows.  Suppose $$a$$, $$b$$ and $$c$$ are letters of the tape alphabet $$\Gamma$$; $$u$$ and $$v$$ are strings in $$\Gamma^*$$, and $$q_1$$ and $$q_2$$ are states with $$q_1$$.  Suppose $$C_1$$ is a configuration of shape $$u\:q_1\:bv$$, but not a halting configuration.
+We say that configuration $$C_1$$ __yields__ configuration $$C_2$$ just if the machine can move from $$C_1$$ to $$C_2$$ in a single step.  This notion is defined as follows.  Suppose $$a$$, $$b$$ and $$c$$ are letters of the tape alphabet $$\Gamma$$; $$u$$ and $$v$$ are strings in $$\Gamma^*$$, and $$q_1$$ and $$q_2$$ are states.  Suppose $$C_1$$ is a configuration of shape $$u\:q_1\:bv$$, but not a halting configuration.
 * _Moving left._ When $$\delta(q_1,\,b) = (q_2,\,c,\,L)$$ the machine overwrites $$b$$ with $$c$$, transitions to state $$q_2$$ and moves the head left.  There are two subcases to consider:
   * When $u$ is empty, the machine is at the far left of the tape already and the head remains stationary.  Therefore $$C_2 = u\:q_2\:cv$$.
   * When $u$ is not empty, and is therefore of shape $$wa$$, $$C_2 = w\:q_2\:acv$$.

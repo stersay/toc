@@ -4,7 +4,7 @@ title: Context-Free Languages
 nav_order: 4
 mathjax: true
 has_children: true
-has_toc: false
+
 ---
 
 ## Context-Free Languages

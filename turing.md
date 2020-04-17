@@ -4,7 +4,6 @@ title: Turing Languages
 nav_order: 5
 mathjax: true
 has_children: true
-has_toc: false
 ---
 
 ## Turing-recognisable and decidable languages

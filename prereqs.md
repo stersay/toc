@@ -4,7 +4,6 @@ title: Prerequesites
 nav_order: 2
 mathjax: true
 has_children: true
-has_toc: false
 ---
 
 ## Prerequesites

@@ -4,7 +4,7 @@ title: Regular Languages
 nav_order: 3
 mathjax: true
 has_children: true
-has_toc: false
+
 ---
 
 ## Regular Languages
