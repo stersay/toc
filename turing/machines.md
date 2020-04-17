@@ -40,3 +40,7 @@ A Turing machine $$M$$ __accepts__ an input word $$v$$ just if there is a sequen
 * and $$C_k$$ is an accepting configuration.
 
 The __language recognised by $$M$$__ is the set $$\{w \in \Sigma^* \mid \text{$M$ accepts $w$}\}$$.
+
+### Decider
+
+A Turing Machine $$M$$ is said to be a __decider__ just if it halts (i.e. reaches a halting configuration) on every input.  In this case the language $$\{w \in \Sigma^* \mid \text{$M$ accepts $w$}\}$$ is said to be the language __decided__ by $$M$$.
